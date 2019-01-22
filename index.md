@@ -4,12 +4,12 @@ title: clc
 pdf: true
 ---
 
-# __陈良长的简历__
+# 陈良长 __简历__
 
 <div id="webaddress">
 <i class="fi-bookmark" style="margin-left:1em"></i> 前端开发工程师
 <i class="fi-social-github" style="margin-left:1em"></i>
-<a href="https://github.com/besfro" style="margin-left:0.5em">主页</a>
+<a href="https://github.com/besfro" style="margin-left:0.5em" target="_blank">个人主页</a>
 <i class="fi-telephone" style="margin-left:1em"></i>15220188250
 <i class="fi-mail" style="margin-left:1em"></i>
 <a href="mailto:121074147@qq.com" style="margin-left:0.5em">121074147@qq.com</a>
@@ -34,9 +34,9 @@ pdf: true
 <span class="grap">_B端项目是一个专注于企业级客户的云端保险平台。我负责项目的Node和前端JS开发以及后期功能迭代。_</span>
 
 - 字段解析插件，多人多字段解析插件，解决多人投保导入缓慢问题，团单主要的导入工具 
-<a href="https://github.com/besfro/txtParse"><span class="fi-link ml-30"></span></a>
+<a href="https://github.com/besfro/txtParse" target="_blank"><span class="fi-link ml-30"></span></a>
 - NPM加密模块，服务端用于保单号加密解密的NPM插件
-<a href="https://github.com/besfro/scrypto"><span class="fi-link ml-30"></span></a>
+<a href="https://github.com/besfro/scrypto" target="_blank"><span class="fi-link ml-30"></span></a>
 
 <br/>
 
@@ -78,11 +78,11 @@ native通信方法。_</span>
 
 ## 个人作品
 
-### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index">齐欣CPS</a> <span class="deta">_齐欣 PC 端的分销项目_</span>
-### <i class="fi-link"></i> <a href="https://www.qixin18.com/">齐欣AP</a>  <span class="deta">_齐欣AP-服务B端多人投保项目_</span>
-### <i class="fi-link"></i> <a href="https://cps.qixin18.com/m/index">齐欣CPS-H5</a> <span class="deta">_齐欣移动端的分销项目_</span>
-### <i class="fi-link"></i> <a href="http://jiusdzsy.s.wsjqq.com/mobile/">微信商城</a>  <span class="deta">_微信购物商城_</span>
-### <i class="fi-link"></i> <a href="http://www.wsjqq.com/m/">微商街</a> <span class="deta">_微信商家导航_</span>
+#### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index" target="_blank">齐欣CPS</a> <span class="deta">_齐欣 PC 端的分销项目_</span>
+#### <i class="fi-link"></i> <a href="https://www.qixin18.com/" target="_blank">齐欣AP</a>  <span class="deta">_齐欣AP-服务B端多人投保项目_</span>
+#### <i class="fi-link"></i> <a href="https://cps.qixin18.com/m/index" target="_blank">齐欣CPS-H5</a> <span class="deta">_齐欣移动端的分销项目_</span>
+#### <i class="fi-link"></i> <a href="http://jiusdzsy.s.wsjqq.com/mobile/" target="_blank">微信商城</a>  <span class="deta">_微信购物商城_</span>
+#### <i class="fi-link"></i> <a href="http://www.wsjqq.com/m/" target="_blank">微商街</a> <span class="deta">_微信商家导航_</span>
 
 ## 技能清单
 
