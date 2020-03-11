@@ -97,8 +97,8 @@ h2 {
 	font-weight: normal;
 	display: flex;
 	/* line-height: 1.5em; */
-	margin-top: 0.7em;
-	margin-bottom: 0.5em;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
 	width: 100%;
 }
 h2:after {
@@ -153,8 +153,29 @@ li {
 	text-decoration: none;
 }
 
+.grap {
+	color: #999;
+	font-size: 9pt;
+}
+
+.divline {
+	display: block;
+	padding: 0.6rem 0;
+	color: #ccc;
+	font-size: 9pt;
+	letter-spacing: 3px;
+}
+
+.deta , .deta-2 {
+	font-size: 8pt;
+	font-weight: lighter;
+	color: #ccc;
+	margin-top: 20px;
+	text-align: center;
+}
+
 @media print {
-    p {page-break-inside: avoid;}
+  p {page-break-inside: avoid;}
 	h2 {page-break-after: avoid;}
 	h3 {page-break-after: avoid;}
 }
