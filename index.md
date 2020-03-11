@@ -20,14 +20,57 @@ pdf: true
 
 ## 个人简介
 我来自广东汕头。电子商务专业，大学时代开始接触网站开发。<br>
-2011年毕业开始从事前端相关工作，2013年开始专注于前端开发至今。<br>
-熟悉浏览器缓存, webpack。
-热爱前端，并保持对新技术的关注。
+2013年开始专注于前端开发至今。
 
 ## 个人经历
 
-### __小程序开发 2017.9 - 2018.12__ 
-<span class="grap">_这段期间与几个朋友在做小程序开发。做过一些商业广场，商城的小程序开发。使用wepy构建组件化小程序_</span>
+### __酸桃数据 2018.9 - 至今__
+<span class="grap">_直播,短频的大数据分析平台, 服务超过2000家公会_</span>  
+我在酸桃工作有旧项目的维护和优化; 新项目搭建，前端业务开发; 还有前端工程化。
+
+&nbsp;  
+#### __酸桃数据分析平台__
+<span class="grap">_这是一个对短视频和直播进行数据收集、统计、分析的平台。服务于公会。_</span>  
+项目采用 Vue + Element UI + Vuex + Webpack4 的技术架构。  
+我是前端负责人, 负责常规功能迭代开发、新项目搭建、还有一些重要事项  
+
+项目业务拆分, 由于业务发展，原先整合在一起的短视频和直播的业务需要拆分成2个独立的项目分开运营。  
+- 公共组件的抽取
+- 拆分后的共享登录
+- 公共组件的维护
+
+项目的优化
+- 解决一些原先遗留的问题 （缓存bug）
+- 性能优化, 首次访问控制在1～1.5s之间
+
+&nbsp;  
+#### __酸桃广告平台__
+项目采用 Vue + Antd Vue + Webpack4 的技术架构。 
+这是一个新项目, 负责项目技术选型、搭建、开发  
+
+- 构建工具搭建
+- 组件开发 
+- 公共模块开发
+
+&nbsp;  
+#### __抢推荐位Chrome 扩展__
+这是一个针对dou音运营后台抢推荐位功能的辅助工具, 也是我的重要工作之一。  
+该工具可以通过每天定时设置进行抢位  
+热门位置（总共25个）抢位率从5%(2个)提升到40%～60% (10个以上)
+
+&nbsp;  
+#### __Switch Host Chrome 扩展__
+这是一个host方案快速切换工具。 
+- 解决需要在多种环境进行切换的问题
+- 解决原先应用级host工具的缓存问题
+
+&nbsp;  
+#### __其他__
+酸桃数据小程序  
+酸桃数据艺人版小程序  
+财务系统（vue + bootstrap + webpack4）  
+产品手册 (docsify)  
+版本控制 git-flow 流程  
 
 <br/>
 
@@ -37,26 +80,28 @@ pdf: true
 <br/>
 
 #### __齐欣AP__
-<span class="grap">_B端项目是一个专注于企业级客户的云端保险平台。我是项目负责人, 主要负责页面业务逻辑和数据处理。优化了项目多人投保导入效率和容错，解决保单查询的一些安全性问题。_</span>
-
-- 字段解析插件，多人多字段解析插件，解决多人投保导入缓慢问题，团单主要的导入工具 
-<a href="https://github.com/besfro/txtParse" target="_blank"><span class="fi-link ml-30"></span></a>
-- NPM加密模块，服务端用于保单号加密解密的NPM插件
-<a href="https://github.com/besfro/scrypto" target="_blank"><span class="fi-link ml-30"></span></a>
+<span class="grap">_一个专注于企业级客户的云端保险平台_</span>  
+项目采用 Express + nunjucks + Jquery + insure corejs（内部核心库） + requireJs + glup 的技术架构。
+我负责项目功能迭代开发和业务功能优化
+- 优化团单投保业务的效率和容错
+- 解决保单查询的一些安全性问题
+- 处理保单的数据泄漏问题
 
 <br/>
 
 #### __齐欣CPS__
-<span class="grap">_一个提供给B端客户用的CPS门店。负责页面业务逻辑和数据处理，一些性能优化。_</span>
-
-- Node接口缓存，使用redis缓存产品接口。服务端接口的调用速度提升了50%, 减少了基础层接口压力。
-- Hash版本管理，静态资源版本控制，解决了发布和CND问题
+<span class="grap">_一个提供给B端客户用的CPS门店。_</span>  
+项目采用 Express + nunjucks + Jquery + backbone + insure corejs（内部核心库）+ requireJs + glup 的技术架构。
+我负责新项目的开发和后期优化
+- MVC框架首次在保险业务的应用
+- 产品接口缓存，使用redis缓存产品接口。提升了访问速度, 减少了基础层接口压力。
 
 <br/>
 
-#### __其他项目__
+#### __其他__
 - 车险项目的移动适配方案, 使用flexable做移动端适配
-- 私有NPM搭建
+- verdaccio搭建私有NPM
+- gulp构建优化, 静态资源版本控制，解决了发布和CND问题
 
 <span class="divline">-</span>
 
@@ -65,30 +110,29 @@ pdf: true
 <br/>
 
 #### __云端APP项目__
-<span class="grap">_基于hybrid的APP项目，包括购物商城和官网。复制设计还原和JS开发。项目中的采用了
-新的H5框架appframework，提高了开发效率和可维护性。参与定制webView和
-native通信方法。_</span>
+<span class="grap">_基于hybrid的APP项目，包括购物商城和官网。_</span>
 
-- UI框架appframework应用，早期的模块化，提高项目开发效率
+- UI框架appframework应用
 - webView于native通信
+- CSS动画库（Animate.css）
 
 <span class="divline">-</span>
 
 ### __伟驰天下科技有限公司 2011.7 - 2013.12__ 
-<span class="grap">_从这里开始前端生涯。前期做很多其他工作，后来专职前端开发_</span>
-
-#### __邮件营销平台__
-<span class="grap">_自动化的邮件营销平台。 我负责平台UI、页面重构、JS开发。_</span>
+<span class="grap">_邮件营销公司_</span>  
+负责平台UI设计、网站建设、SEO
 
 <span class="divline">-</span>
 
 ## 个人作品
 
+#### <i class="fi-link"></i> <a href="https://mcn.suantao.com" target="_blank">直播公会</a> <span class="deta">_酸桃数据分析平台_</span>
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index" target="_blank">齐欣CPS</a> <span class="deta">_齐欣 PC 端的分销项目_</span>
 #### <i class="fi-link"></i> <a href="https://www.qixin18.com/" target="_blank">齐欣AP</a>  <span class="deta">_齐欣AP-服务B端多人投保项目_</span>
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/m/index" target="_blank">齐欣CPS-H5</a> <span class="deta">_齐欣移动端的分销项目_</span>
 #### <i class="fi-link"></i> <a href="http://jiusdzsy.s.wsjqq.com/mobile/" target="_blank">微信商城</a>  <span class="deta">_微信购物商城_</span>
 #### <i class="fi-link"></i> <a href="http://www.wsjqq.com/m/" target="_blank">微商街</a> <span class="deta">_微信商家导航_</span>
+#### <i class="fi-link"></i> <a href="https://github.com/besfro" target="_blank">更多请关注github</a> 
 
 ## 技能清单
 
@@ -96,9 +140,10 @@ native通信方法。_</span>
 - 移动前端 HTML5/CSS3/响应式
 - 编程语言 javascript/node
 - 框架/库 vue/backbone/underscore/Jquery/zpeto/Bootstrap
+- UI库 Element ui/Antd Vue
 - 模块化 requirejs/seajs
-- 工程化 webpack/postcss/babel/gulp/grunt/sass
-- 开发工具 Sublime/webstorm
+- 工程化 webpack/rollup/babel/gulp/grunt/sass
+- 开发工具 vscode/sublime/webstorm
 - 版本管理/环境 svn/git
 - 调试工具 Web Developer/Firebug/Fiddler
 - 安全 XSS/CSRF
