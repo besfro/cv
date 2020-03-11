@@ -20,6 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font-weight: lighter;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -53,7 +54,6 @@ body {
 	font: normal normal 400;
 	font-size: 11pt;
 	line-height: 1.5em;
-	font-weight: lighter;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	/* margin: 0.5in 0.5in 0.5in 0.5in */
 	/* margin-top: 1em;
@@ -61,11 +61,11 @@ body {
 }
 
 strong {
-	font-weight: bold;
+	font-weight: normal;
 }
 
 p strong {
-	font-weight: bold;
+	font-weight: normal;
 }
 
 em {
@@ -92,7 +92,7 @@ h1 strong {
 /* Section headers */
 h2 {
 	font-family: "Avenir Next",sans-serif;
-	font-size: 20pt;
+	font-size: 22pt;
 	text-align: center;
 	font-weight: normal;
 	display: flex;
@@ -113,12 +113,12 @@ h2:after {
 
 h3 {
 	margin-top: 10px;
-	font-size: 150%;
+	font-size: 15pt;
 }
 
 h4 {
 	margin-top: 10px;
-	font-size: 110%;
+	font-size: 11pt;
 }
 
 code {
