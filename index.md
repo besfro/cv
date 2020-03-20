@@ -31,7 +31,7 @@ pdf: true
 &nbsp;  
 #### __酸桃数据分析平台__
 <span class="grap">_这是一个对短视频和直播进行数据收集、统计、分析的平台。服务于公会。_</span>  
-项目采用 Vue + Element UI + Vuex + Webpack4 的技术架构。  
+项目采用 Vue + Element UI + Router + Vuex + Webpack4 的技术架构。  
 我是前端负责人, 负责常规功能迭代开发、新项目搭建、还有一些重要事项  
 
 项目业务拆分, 由于业务发展，原先整合在一起的短视频和直播的业务需要拆分成2个独立的项目分开运营。  
@@ -45,7 +45,7 @@ pdf: true
 
 &nbsp;  
 #### __酸桃广告平台__
-项目采用 Vue + Antd Vue + Webpack4 的技术架构。 
+项目采用 Vue + Antd Vue + Router + Webpack4 的技术架构。 
 这是一个新项目, 负责项目技术选型、搭建、开发  
 
 - 构建工具搭建
@@ -53,7 +53,7 @@ pdf: true
 - 公共模块开发
 
 &nbsp;  
-#### __抢推荐位Chrome 扩展__
+#### __抢推荐位 Chrome 扩展__
 这是一个针对dou音运营后台抢推荐位功能的辅助工具, 也是我的重要工作之一。  
 该工具可以通过每天定时设置进行抢位  
 热门位置（总共25个）抢位率从5%(2个)提升到40%～60% (10个以上)
@@ -68,7 +68,7 @@ pdf: true
 #### __其他__
 酸桃数据小程序  
 酸桃数据艺人版小程序  
-财务系统（vue + bootstrap + webpack4）  
+财务系统（vue + bootstrap + Router + webpack4）  
 产品手册 (docsify)  
 版本控制 git-flow 流程  
 
@@ -81,7 +81,7 @@ pdf: true
 
 #### __齐欣AP__
 <span class="grap">_一个专注于企业级客户的云端保险平台_</span>  
-项目采用 Express + nunjucks + Jquery + insure corejs（内部核心库） + requireJs + glup 的技术架构。
+项目采用 Express + nunjucks + Jquery + insure corejs（内部库） + requireJs + glup 的技术架构。
 我负责项目功能迭代开发和业务功能优化
 - 优化团单投保业务的效率和容错
 - 解决保单查询的一些安全性问题
@@ -91,7 +91,7 @@ pdf: true
 
 #### __齐欣CPS__
 <span class="grap">_一个提供给B端客户用的CPS门店。_</span>  
-项目采用 Express + nunjucks + Jquery + backbone + insure corejs（内部核心库）+ requireJs + glup 的技术架构。
+项目采用 Express + nunjucks + Jquery + backbone + insure corejs（内部库）+ requireJs + glup 的技术架构。
 我负责新项目的开发和后期优化
 - MVC框架首次在保险业务的应用
 - 产品接口缓存，使用redis缓存产品接口。提升了访问速度, 减少了基础层接口压力。
@@ -127,6 +127,7 @@ pdf: true
 ## 个人作品
 
 #### <i class="fi-link"></i> <a href="https://mcn.suantao.com" target="_blank">直播公会</a> <span class="deta">_酸桃数据分析平台_</span>
+#### <i class="fi-link"></i> <a href="https://github.com/besfro/switch-hosts" target="_blank">Switch Hosts</a> 
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index" target="_blank">齐欣CPS</a> <span class="deta">_齐欣 PC 端的分销项目_</span>
 #### <i class="fi-link"></i> <a href="https://www.qixin18.com/" target="_blank">齐欣AP</a>  <span class="deta">_齐欣AP-服务B端多人投保项目_</span>
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/m/index" target="_blank">齐欣CPS-H5</a> <span class="deta">_齐欣移动端的分销项目_</span>
