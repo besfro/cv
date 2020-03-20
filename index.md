@@ -21,6 +21,7 @@ pdf: true
 ## 个人简介
 我来自广东汕头。电子商务专业，大学时代开始接触网站开发。<br>
 2013年开始专注于前端开发至今。
+在线版 <a href="https://besfro.github.com/cv" target="_blank">besfro.github.com/cv</a> 
 
 ## 个人经历
 
