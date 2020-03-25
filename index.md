@@ -149,6 +149,7 @@ pdf: true
 - 版本管理/环境 svn/git
 - 调试工具 Web Developer/Firebug/Fiddler
 - 安全 XSS/CSRF
+- 服务端 nginx/express
 
 ## 教育经历
 
