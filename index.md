@@ -153,7 +153,7 @@ pdf: true
 
 ## 教育经历
 
-- 东北财经大学(专升) <span class="deta">`2013 - 2016`</span><br>
+- 东北财经大学(专升本) <span class="deta">`2013 - 2016`</span><br>
 - 广东科学技术职业学院(专科) <span class="deta">`2008 - 2011`</span><br>
 
 ## <i></i>
