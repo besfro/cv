@@ -126,11 +126,11 @@ git-flow 优化项目流程
 
 ## 个人作品
 
-#### <i class="fi-link"></i> <a href="https://mcn.suantao.com" target="_blank">直播公会</a> <span class="deta">_酸桃数据分析平台_</span>
 #### <i class="fi-link"></i> <a href="https://github.com/besfro/switch-hosts" target="_blank">Switch Hosts</a> 
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index" target="_blank">齐欣CPS</a> <span class="deta">_齐欣 PC 端的分销项目_</span>
 #### <i class="fi-link"></i> <a href="https://www.qixin18.com/" target="_blank">齐欣AP</a>  <span class="deta">_齐欣AP-服务B端多人投保项目_</span>
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/m/index" target="_blank">齐欣CPS-H5</a> <span class="deta">_齐欣移动端的分销项目_</span>
+#### <i class="fi-link"></i> <a href="http://ow.wuyoucloud.com" target="_blank">直播公会</a> <span class="deta">_酸桃数据分析平台_</span>
 #### <i class="fi-link"></i> <a href="http://jiusdzsy.s.wsjqq.com/mobile/" target="_blank">微信商城</a>  <span class="deta">_微信购物商城_</span>
 #### <i class="fi-link"></i> <a href="http://www.wsjqq.com/m/" target="_blank">微商街</a> <span class="deta">_微信商家导航_</span>
 #### <i class="fi-link"></i> <a href="https://github.com/besfro" target="_blank">更多请关注github</a> 
