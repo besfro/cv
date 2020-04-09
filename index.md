@@ -8,7 +8,7 @@ pdf: true
 
 <div id="webaddress">
 <i class="fi-bookmark" style="margin-left:1em"></i> 前端开发工程师
-<i class="fi-social-github" style="margin-left:1em"></i>
+<i class="fi-social-blogger" style="margin-left:1em"></i>
 <a href="http://blog.clcc.dev" style="margin-left:0.5em" target="_blank">博客</a>
 <i class="fi-social-github" style="margin-left:1em"></i>
 <a href="https://github.com/besfro" style="margin-left:0.5em" target="_blank">个人主页</a>
