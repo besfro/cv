@@ -9,6 +9,8 @@ pdf: true
 <div id="webaddress">
 <i class="fi-bookmark" style="margin-left:1em"></i> 前端开发工程师
 <i class="fi-social-github" style="margin-left:1em"></i>
+<a href="http://blog.clcc.dev" style="margin-left:0.5em" target="_blank">博客</a>
+<i class="fi-social-github" style="margin-left:1em"></i>
 <a href="https://github.com/besfro" style="margin-left:0.5em" target="_blank">个人主页</a>
 <i class="fi-telephone" style="margin-left:1em"></i>15220188250
 <i class="fi-mail" style="margin-left:1em"></i>
@@ -21,7 +23,7 @@ pdf: true
 ## 个人简介
 我来自广东汕头。电子商务专业，大学时代开始接触网站开发。<br>
 2013年开始专注于前端开发至今。
-在线版 <a href="https://besfro.github.com/cv" target="_blank">besfro.github.com/cv</a> 
+在线版 <a href="https://besfro.github.io/cv" target="_blank">besfro.github.io/cv</a> 
 
 ## 个人经历
 
@@ -36,27 +38,21 @@ pdf: true
 我是前端负责人, 负责常规功能迭代开发、新项目搭建、还有一些重要事项  
 
 项目业务拆分, 由于业务发展，原先整合在一起的短视频和直播的业务需要拆分成2个独立的项目分开运营。  
-- 公共组件的抽取
-- 业务拆分后实现共享登录
-- 公共组件的维护
+- 公共组件的抽取  
+	除UI库外, 项目组件约80个, 公用组件占50%左右。需要达到共用组件在拆分用的复用, 和便捷引入。将公用组件抽取并作为组件库, 搭建私有NPM管理组件库
+- 业务拆分后子域名间实现共享登录
+  拆分后业务在不同子域, 需要达到 a.my.com 登录 b.my.com 同步登陆效果。最终使用顶域cookie来存储登陆token实现共享登陆
 
 项目的优化
-- 解决一些原先遗留的问题 （缓存bug）
 - 性能优化, 首次访问控制在1～1.5s之间
+- 构建效率优化
 
-&nbsp;  
-#### __酸桃广告平台__
-项目采用 Vue + Antd Vue + Router + Webpack4 的技术架构。 
-这是一个新项目, 负责项目技术选型、搭建、开发  
-
-- 构建工具搭建
-- 组件开发 
-- 公共模块开发
 
 &nbsp;  
 #### __抢推荐位 Chrome 扩展__
 这是一个针对dou音运营后台抢推荐位功能的辅助工具。  
 热门位置抢位率从5%提升到40%～60% 
+- 修改 header x-frame-option 以
 
 &nbsp;  
 #### __Switch Host Chrome 扩展__
@@ -127,6 +123,9 @@ git-flow 优化项目流程
 ## 个人作品
 
 #### <i class="fi-link"></i> <a href="https://github.com/besfro/switch-hosts" target="_blank">Switch Hosts</a> 
+#### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index" target="_blank">慧择网</a> <span class="deta">_慧择网_</span>
+#### <i class="fi-link"></i> <a href="https://www.huize.com/" target="_blank">慧择网</a> <span class="deta">_慧择网_</span>
+#### <i class="fi-link"></i> <a href="http://m.huize.com/" target="_blank">慧择网H5</a> <span class="deta">_慧择网H5_</span>
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/index" target="_blank">齐欣CPS</a> <span class="deta">_齐欣 PC 端的分销项目_</span>
 #### <i class="fi-link"></i> <a href="https://www.qixin18.com/" target="_blank">齐欣AP</a>  <span class="deta">_齐欣AP-服务B端多人投保项目_</span>
 #### <i class="fi-link"></i> <a href="https://cps.qixin18.com/m/index" target="_blank">齐欣CPS-H5</a> <span class="deta">_齐欣移动端的分销项目_</span>
